@@ -4,7 +4,6 @@ using System.Text.Json;
 using System.Collections.ObjectModel;
 using System;
 
-
 namespace AlbumV
 {
     public partial class MainWindow : Window
@@ -12,9 +11,9 @@ namespace AlbumV
         public ObservableCollection<Albums> Album { get; set; }
         public MainWindow()
         {
+            InitializeComponent();
             LoadJsonData();
             DataContext = this;
-            InitializeComponent();
         }
 
         private void LoadJsonData()
