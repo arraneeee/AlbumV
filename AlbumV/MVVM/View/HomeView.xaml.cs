@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using AlbumV.MVVM.ViewModel;
 
 namespace AlbumV.MVVM.View
 {
@@ -23,6 +24,7 @@ namespace AlbumV.MVVM.View
         public HomeView()
         {
             InitializeComponent();
+            DataContext = new HomeViewModel();
         }
     }
 }
