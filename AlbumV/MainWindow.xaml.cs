@@ -1,37 +1,20 @@
-﻿using System.IO;
-using System.Windows;
-using System.Text.Json;
-using System.Collections.ObjectModel;
-using System;
+﻿using System.Collections.ObjectModel;
+using AlbumV.Models;
 
-
-namespace AlbumV
+namespace AlbumV.MVVM.ViewModel
 {
-    public partial class MainWindow : Window
+    public class HomeViewModel : ObservableObject
     {
-        public ObservableCollection<Albums> Album { get; set; }
-        public MainWindow()
-        {
-            LoadJsonData();
-            DataContext = this;
-            InitializeComponent();
-        }
+        public ObservableCollection<Album> Albums { get; set; }
 
-        private void LoadJsonData()
+        public HomeViewModel()
         {
-            string jsonFilePath = "A:\\Projects\\AlbumV\\AlbumV\\JSON\\albumData.json";
-            if (File.Exists(jsonFilePath))
+            Albums = new ObservableCollection<Album>
             {
-                string json = File.ReadAllText(jsonFilePath);
-                Album = JsonSerializer.Deserialize<ObservableCollection<Albums>>(json);
-
-                // Debugging output
-                Console.WriteLine($"Loaded {Album?.Count} albums.");
-            }
-            else
-            {
-                Console.WriteLine($"JSON file not found at: {jsonFilePath}");
-            }
+                new Album { Name = "Graduation", Artist = "Kanye West", FilePath = "/Images/graduation.jpg", Rating = 87 },
+                new Album { Name = "Some Rap Songs", Artist = "Earl Sweatshirt", FilePath = "/Images/somerapsongs.jpg", Rating = 85 },
+                new Album { Name = "Astroworld", Artist = "Travis Scott", FilePath = "/Images/astroworld.jpg", Rating = 83 }
+            };
         }
     }
 }
