@@ -1,0 +1,20 @@
+[
+    {
+        "Name": "Graduation",
+        "Artist": "Kanye West",
+        "FilePath": "/Images/graduation.jpg",
+        "Rating": 87
+    },
+    {
+        "Name": "Some Rap Songs",
+        "Artist": "Earl Sweatshirt",
+        "FilePath": "/Images/somerapsongs.jpg",
+        "Rating": 85
+    },
+    {
+        "Name": "Astroworld",
+        "Artist": "Travis Scott",
+        "FilePath": "/Images/astroworld.jpg",
+        "Rating": 83
+    }
+]
