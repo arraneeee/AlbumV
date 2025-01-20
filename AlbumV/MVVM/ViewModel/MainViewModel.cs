@@ -4,15 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using AlbumV.Core;
+using AlbumV.MVVM.ViewModel;
 
 namespace AlbumV.MVVM.ViewModel
 {
     class MainViewModel : ObservableObject 
     {
-
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand UploadViewCommand { get; set; }
-
 
         public HomeViewModel HomeVM { get; set; }
         public UploadViewModel UploadVM { get; set; }
