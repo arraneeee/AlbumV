@@ -1,16 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
+using System.Diagnostics;
+using System.IO;
+using Newtonsoft.Json;
 
-namespace AlbumV
+namespace AlbumV.MVVM.ViewModel
 {
-    public class Albums
+    public class HomeViewModel
     {
-        public string Name { get; set; }
-        public string Artist { get; set; }
-        public string FilePath { get; set; }
-        public int Rating { get; set; }
+        public ObservableCollection<Albums> Albums { get; set; }
+
+        public HomeViewModel()
+        {
+            LoadAlbums();
+        }
+
+        private void LoadAlbums()
+        {
+            var json = File.ReadAllText("A:\\Projects\\AlbumV\\AlbumV\\JSON\\albumData.json");
+            Albums = JsonConvert.DeserializeObject<ObservableCollection<Albums>>(json);
+
+            // Debugging: Print out the loaded albums
+            foreach (var album in Albums)
+            {
+                Debug.WriteLine($"Name: {album.Name}, Artist: {album.Artist}, Rating: {album.Rating}, FilePath: {album.FilePath}");
+            }
+        }
     }
 }
