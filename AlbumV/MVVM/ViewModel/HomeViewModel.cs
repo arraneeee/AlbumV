@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace AlbumV.MVVM.ViewModel
 {
-    class HomeViewModel
+    public class HomeViewModel
     {
+        public ObservableCollection<Albums> Albums { get; set; }
+
+        public HomeViewModel()
+        {
+            LoadAlbums();
+        }
+
+        private void LoadAlbums()
+        {
+            var json = File.ReadAllText("A:\\Projects\\AlbumV\\AlbumV\\JSON\\albumData.json");
+            Albums = JsonConvert.DeserializeObject<ObservableCollection<Albums>>(json);
+        }
     }
 }
