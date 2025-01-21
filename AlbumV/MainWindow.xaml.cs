@@ -4,7 +4,6 @@ using System.Text.Json;
 using System.Collections.ObjectModel;
 using System;
 
-
 namespace AlbumV
 {
     public partial class MainWindow : Window
@@ -27,6 +26,10 @@ namespace AlbumV
 
                 // Debugging output
                 Console.WriteLine($"Loaded {Album?.Count} albums.");
+                foreach (var album in Album)
+                {
+                    Console.WriteLine($"Name: {album.Name}, Artist: {album.Artist}, Rating: {album.Rating}, FilePath: {album.FilePath}");
+                }
             }
             else
             {

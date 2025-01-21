@@ -27,7 +27,7 @@
                     <DataTemplate>
                         <Border Width="200"
                                 Height="300"
-                                Margin="10"
+                                Margin="5"
                                 BorderBrush="Gray"
                                 BorderThickness="1">
                             <Border.Clip>

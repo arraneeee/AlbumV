@@ -17,6 +17,12 @@ namespace AlbumV.MVVM.ViewModel
         {
             var json = File.ReadAllText("A:\\Projects\\AlbumV\\AlbumV\\JSON\\albumData.json");
             Albums = JsonConvert.DeserializeObject<ObservableCollection<Albums>>(json);
+
+            // Debugging: Print out the loaded albums
+            foreach (var album in Albums)
+            {
+                System.Diagnostics.Debug.WriteLine($"Name: {album.Name}, Artist: {album.Artist}, Rating: {album.Rating}, FilePath: {album.FilePath}");
+            }
         }
     }
 }
