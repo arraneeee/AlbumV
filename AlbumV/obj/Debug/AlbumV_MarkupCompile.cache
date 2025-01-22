@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-A:\Projects\AlbumV\AlbumV\obj\Debug\
+C:\Users\arran\Documents\GitHub\AlbumV\AlbumV\obj\Debug\
 AlbumV
 none
 false
 DEBUG;TRACE
-A:\Projects\AlbumV\AlbumV\App.xaml
+C:\Users\arran\Documents\GitHub\AlbumV\AlbumV\App.xaml
 51613293842
 
 121546618319
-24-691175106
+251942878326
 MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\UploadView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
-True
+False
 

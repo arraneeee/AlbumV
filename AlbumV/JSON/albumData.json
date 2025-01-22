@@ -9,11 +9,17 @@
         "Name": "Some Rap Songs",
         "Artist": "Earl Sweatshirt",
         "FilePath": "/Images/somerapsongs.jpg",
-        "Rating": 85
+        "Rating": 89
     },
     {
         "Name": "Astroworld",
         "Artist": "Travis Scott",
+        "FilePath": "/Images/astroworld.jpg",
+        "Rating": 83
+    },
+    {
+        "Name": "smeg",
+        "Artist": "gimp",
         "FilePath": "/Images/astroworld.jpg",
         "Rating": 83
     }

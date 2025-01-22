@@ -4,12 +4,11 @@ using System.Text.Json;
 using System.Collections.ObjectModel;
 using System;
 
-
 namespace AlbumV
 {
     public partial class MainWindow : Window
     {
-        public ObservableCollection<Albums> Album { get; set; }
+        public ObservableCollection<Albums> Albums { get; set; }
         public MainWindow()
         {
             LoadJsonData();
@@ -19,14 +18,18 @@ namespace AlbumV
 
         private void LoadJsonData()
         {
-            string jsonFilePath = "A:\\Projects\\AlbumV\\AlbumV\\JSON\\albumData.json";
+            string jsonFilePath = "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json";
             if (File.Exists(jsonFilePath))
             {
                 string json = File.ReadAllText(jsonFilePath);
-                Album = JsonSerializer.Deserialize<ObservableCollection<Albums>>(json);
+                Albums = JsonSerializer.Deserialize<ObservableCollection<Albums>>(json);
 
                 // Debugging output
-                Console.WriteLine($"Loaded {Album?.Count} albums.");
+                Console.WriteLine($"Loaded {Albums?.Count} albums.");
+                foreach (var album in Albums)
+                {
+                    Console.WriteLine($"Name: {album.Name}, Artist: {album.Artist}, Rating: {album.Rating}, FilePath: {album.FilePath}");
+                }
             }
             else
             {
