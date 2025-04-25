@@ -12,10 +12,6 @@
         Background="Transparent"
         AllowsTransparency="False">
 
-    <Window.Resources>
-        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
-    </Window.Resources>
-
     <Window.DataContext>
         <viewModel:MainViewModel>
             
