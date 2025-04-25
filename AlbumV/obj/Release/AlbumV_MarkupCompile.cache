@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\arran\Documents\GitHub\AlbumV\AlbumV\obj\Release\
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\
 AlbumV
 none
 false
 TRACE
-C:\Users\arran\Documents\GitHub\AlbumV\AlbumV\App.xaml
+D:\GitHub\[Remi]\AlbumV\AlbumV\App.xaml
 51613293842
 
 13336064722
-251942878326
+25133150506
 MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\UploadView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
-False
+True
 
