@@ -15,7 +15,7 @@ namespace AlbumV.MVVM.ViewModel
 
         private void LoadAlbums()
         {
-            var json = File.ReadAllText("C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json");
+            var json = File.ReadAllText(@"..\..\JSON\albumData.json");
             Albums = JsonConvert.DeserializeObject<ObservableCollection<Albums>>(json);
 
             if (Albums == null || Albums.Count == 0)

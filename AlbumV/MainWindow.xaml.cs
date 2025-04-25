@@ -19,7 +19,7 @@ namespace AlbumV
 
         private void LoadJsonData()
         {
-            string jsonFilePath = "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json";
+            string jsonFilePath = @"..\..\JSON\albumData.json";
             if (File.Exists(jsonFilePath))
             {
                 string json = File.ReadAllText(jsonFilePath);

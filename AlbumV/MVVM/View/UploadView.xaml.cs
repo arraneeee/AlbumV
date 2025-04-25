@@ -40,7 +40,7 @@ namespace AlbumV.MVVM.View
         }
         private void SaveAlbumsToJson()
         {
-            string jsonFilePath = "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json";
+            string jsonFilePath = @"..\..\JSON\albumData.json";
             ObservableCollection<Albums> existingAlbums = new ObservableCollection<Albums>();
 
             if (File.Exists(jsonFilePath))
