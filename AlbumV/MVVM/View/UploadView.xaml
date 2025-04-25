@@ -86,42 +86,6 @@
                  Canvas.Top="285" 
                  HorizontalAlignment="Left" 
                  VerticalAlignment="Center"/>
-        <TextBlock Text="Audio Clip (Optional)"
-                   Foreground="#E8D8C3"
-                   FontSize="20"
-                   HorizontalAlignment="Left" 
-                   Canvas.Left="307" 
-                   Canvas.Top="338" 
-                   VerticalAlignment="Top"/>
-
-        <TextBox Height="30"
-                    Width="200"
-                    VerticalContentAlignment="Center"
-                    HorizontalContentAlignment="Center"
-                    FontSize="20"
-                    Name="audioInput" 
-                    Canvas.Left="299" 
-                    Canvas.Top="365" 
-                    HorizontalAlignment="Left" 
-                    VerticalAlignment="Center"/>
-
-        <Button Content="Browse..." 
-                    Height="30"
-                    Width="80"
-                    Background="#7D5A50"
-                    Foreground="#E8D8C3"
-                    Canvas.Left="307" 
-                    Canvas.Top="400"
-                    Click="BrowseAudioClick"/>
-
-        <Button Content="Test Play" 
-                    Height="30"
-                    Width="80"
-                    Background="#7D5A50"
-                    Foreground="#E8D8C3"
-                    Canvas.Left="413" 
-                    Canvas.Top="400"
-                    Click="TestPlayClick"/>
 
         <RadioButton Content="Save Upload"
                      Height="50"
@@ -130,10 +94,10 @@
                      Cursor="Hand"
                      HorizontalContentAlignment="Center"
                      Style="{StaticResource MenuButtonTheme}" 
-                     Canvas.Left="330" 
-                     Canvas.Top="462" 
+                     Canvas.Left="329" 
+                     Canvas.Top="366" 
                      HorizontalAlignment="Left" 
-                     VerticalAlignment="Top"
+                     VerticalAlignment="Center"
                      Click="uploadClick"/>
 
     </Canvas>
