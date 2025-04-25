@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mvvm\\view\\uploadview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\json\\albumdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\json\\albumdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\mvvm\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mvvm\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|c:\\users\\arran\\documents\\github\\albumv\\albumv\\mvvm\\viewmodel\\uploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mvvm\\viewmodel\\uploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\json\\albumdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\json\\albumdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\albums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|c:\\users\\arran\\documents\\github\\albumv\\albumv\\mvvm\\viewmodel\\uploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mvvm\\viewmodel\\uploadviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|c:\\users\\arran\\documents\\github\\albumv\\albumv\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +31,12 @@
       "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mvvm\\view\\uploadview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\mvvm\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mvvm\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|solutionrelative:albumv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD31BBF1-FF8C-4C89-BFBE-70FB66F8366C}|AlbumV\\AlbumV.csproj|C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\albumv\\mvvm\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,11 +50,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\View\\UploadView.xaml.cs",
+              "RelativeDocumentMoniker": "AlbumV\\MVVM\\View\\UploadView.xaml.cs",
+              "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\View\\UploadView.xaml.cs",
+              "RelativeToolTip": "AlbumV\\MVVM\\View\\UploadView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:55:20.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,7 +84,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T00:59:47.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "albumData.json",
+              "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json",
+              "RelativeDocumentMoniker": "AlbumV\\JSON\\albumData.json",
+              "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json",
+              "RelativeToolTip": "AlbumV\\JSON\\albumData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T00:52:34.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Albums.cs",
               "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\Albums.cs",
               "RelativeDocumentMoniker": "AlbumV\\Albums.cs",
@@ -84,20 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
-              "RelativeToolTip": "AlbumV\\MVVM\\ViewModel\\HomeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T00:59:47.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UploadViewModel.cs",
               "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\ViewModel\\UploadViewModel.cs",
               "RelativeDocumentMoniker": "AlbumV\\MVVM\\ViewModel\\UploadViewModel.cs",
@@ -110,39 +136,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UploadView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\View\\UploadView.xaml.cs",
-              "RelativeDocumentMoniker": "AlbumV\\MVVM\\View\\UploadView.xaml.cs",
-              "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\View\\UploadView.xaml.cs",
-              "RelativeToolTip": "AlbumV\\MVVM\\View\\UploadView.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwB8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T14:55:20.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "albumData.json",
-              "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json",
-              "RelativeDocumentMoniker": "AlbumV\\JSON\\albumData.json",
-              "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\JSON\\albumData.json",
-              "RelativeToolTip": "AlbumV\\JSON\\albumData.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-21T00:52:34.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AlbumV\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MainWindow.xaml.cs",
               "RelativeToolTip": "AlbumV\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T23:50:15.192Z",
               "EditorCaption": ""
@@ -161,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "HomeView.xaml",
               "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MVVM\\View\\HomeView.xaml",
               "RelativeDocumentMoniker": "AlbumV\\MVVM\\View\\HomeView.xaml",
@@ -173,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\arran\\Documents\\GitHub\\AlbumV\\AlbumV\\MainWindow.xaml",
               "RelativeDocumentMoniker": "AlbumV\\MainWindow.xaml",
