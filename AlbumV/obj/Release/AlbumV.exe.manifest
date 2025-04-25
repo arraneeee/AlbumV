@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="AlbumV.exe" version="1.0.0.0" publicKeyToken="c2c1ddb24e011542" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="AlbumV.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="AlbumV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AlbumV.exe" size="418784">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AlbumV.exe" size="27616">
       <assemblyIdentity name="AlbumV" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zhdhkAkUTXR9aVRMRkOVJeyVnUpKQ7hpBv/4+n36PVA=</dsig:DigestValue>
+        <dsig:DigestValue>oUT00LrNZQUa397D0EW23LM5EKe4p5+kqHpz+Tq/6as=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -194,4 +194,4 @@
       <dsig:DigestValue>ThIFb2xv99BfTf2VdYautB/lY2d8V64vxDr/iqK8+XA=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=DESKTOP-C5BAV13\arran" issuerKeyHash="33799066dbe0548539a52b447a0caaf84058b41a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BaKYZbGdu5DphVsFestwBuH6gRN7ODt9DpG6vhqyz50=</DigestValue></Reference></SignedInfo><SignatureValue>F11DuUdk+BfG4Vhu+Ix8YEFU7ZC27VShCYZcUCX66IH/i8r7e6tIW8jGjKuDgvxRWAR+GPJE7DVxkPVtyb4sg99GZSF80RgOOa6D9+sSsgRZwcuo37kDav+wpUcL4IAEeMdpbhe3o1Rwe3ohGVS9hwMZ7Rtwg7W4fKNIbSMGTTI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mKS6Wkm8YI3GeyCtYY1V3++MkbdXC9HMgL3eTbx7PQ6CGa1b2Grj79MLZI4w8wM/YVZoZwm9kXPdESsgXKUk/vNPMy97lj+QZauMmaoLoAyFpG5H35mh+nTZ+hLmIYztJWYD9tmAiqqiX83A/BoVoARhrMNkMUoduGA+QuBso+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9dcfb21abeba910e7d3b387b1381fae10670cb7a055b85e990bb9db16598a205" Description="" Url=""><as:assemblyIdentity name="AlbumV.exe" version="1.0.0.0" publicKeyToken="c2c1ddb24e011542" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-C5BAV13\arran</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y9OEE+/M0iMxCwlTvv2BjRvU7FWFxz/VRdCtwmAr2xk=</DigestValue></Reference></SignedInfo><SignatureValue>T3+82F/Suoj/7ZKI7RPvJhOQ9yP6jV6UDzYflzxUmVbMMOqpN0usc3x07d8HuNVlN5tjw61Iv5DCn2ldQF9rkOGKez5w9wpYtyuZU57CTpEsSlXokYfVaUoluAyJeQhLsuLGQsfDDX9aT+UIWhjHbNDc8E0TnpST3mYzVd390AA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mKS6Wkm8YI3GeyCtYY1V3++MkbdXC9HMgL3eTbx7PQ6CGa1b2Grj79MLZI4w8wM/YVZoZwm9kXPdESsgXKUk/vNPMy97lj+QZauMmaoLoAyFpG5H35mh+nTZ+hLmIYztJWYD9tmAiqqiX83A/BoVoARhrMNkMUoduGA+QuBso+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKTtVG7B7fKZJBRqZHuP9KjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMANQBCAEEAVgAxADMAXABhAHIAcgBhAG4wHhcNMjUwNDI1MTUxNDIwWhcNMjYwNDI1MjExNDIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEMANQBCAEEAVgAxADMAXABhAHIAcgBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJikulpJvGCNxnsgrWGNVd/vjJG3VwvRzIC93k28ez0OghmtW9hq4+/TC2SOMPMDP2FWaGcJvZFz3RErIFylJP7zTzMve5Y/kGWrjJmqC6AMhaRuR9+Zofp02foS5iGM7SVmA/bZgIqqol/NwPwaFaAEYazDZDFKHbhgPkLgbKPhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJO2kpaPv7YKiDURi3hi3OyDrdJ6wzdTn/0hmimXrD5NHcyD6DvDI9F+zNo9m3Y+xEAnw4iRZjhQZcktANdIgawva7zP2/yxsgLBNl7pKrMjiSelJRKqs4IXcj8ByF1XlpEo9p3rSt+rNQJ3obyzvcGLwySRHpwRl4/DZo07NlpE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>

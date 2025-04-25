@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="AlbumV.exe.manifest" size="11106">
+    <dependentAssembly dependencyType="install" codebase="AlbumV.exe.manifest" size="11105">
       <assemblyIdentity name="AlbumV.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>q/b5n1EoTiNgYiYsCDS4fFp6vMMRrFFEk6bPVRAvfKY=</dsig:DigestValue>
+        <dsig:DigestValue>FdD7yABQnhZL4ocstSgLh2c/1oRntuctXe06H5p6oIY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

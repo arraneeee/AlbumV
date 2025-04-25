@@ -1,13 +1,14 @@
 ﻿<UserControl x:Class="AlbumV.MVVM.View.HomeView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:AlbumV.MVVM.ViewModel"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
     <UserControl.DataContext>
-        <local:HomeViewModel />
+        <local:HomeViewModel/>
     </UserControl.DataContext>
     <StackPanel>
         <TextBlock Text="Albums"
@@ -16,11 +17,13 @@
                    HorizontalAlignment="Center"
                    Margin="0,10,0,20"/>
 
-        <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Height="550">
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Height="550">
             <ItemsControl ItemsSource="{Binding Albums}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
-                        <WrapPanel Orientation="Horizontal" />
+                        <WrapPanel Orientation="Horizontal"/>
                     </ItemsPanelTemplate>
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
@@ -36,9 +39,18 @@
                             </Border.Clip>
                             <Grid>
                                 <StackPanel>
-                                    <TextBlock Text="{Binding Name}" Margin="10,215,10,0" TextAlignment="Center" Foreground="#E8D8C3"/>
-                                    <TextBlock Text="{Binding Artist}" Margin="10,10,10,0" TextAlignment="Center" Foreground="#E8D8C3"/>
-                                    <TextBlock Text="{Binding Rating}" Margin="10,10,10,0" TextAlignment="Center" Foreground="#E8D8C3"/>
+                                    <TextBlock Text="{Binding Name}"
+                                               Margin="10,215,10,0"
+                                               TextAlignment="Center"
+                                               Foreground="#E8D8C3"/>
+                                    <TextBlock Text="{Binding Artist}"
+                                               Margin="10,10,10,0"
+                                               TextAlignment="Center"
+                                               Foreground="#E8D8C3"/>
+                                    <TextBlock Text="{Binding Rating}"
+                                               Margin="10,10,10,0"
+                                               TextAlignment="Center"
+                                               Foreground="#E8D8C3"/>
                                 </StackPanel>
                                 <Border>
                                     <Border.Clip>
@@ -51,6 +63,22 @@
                                            Margin="0,0,0,100"
                                            Source="{Binding FilePath}"/>
                                 </Border>
+                                <Button Content="▶️"
+                                        Height="25"
+                                        Width="30"
+                                        Background="#7D5A50"
+                                        Foreground="#E8D8C3"
+                                        Margin="5,5,5,5"
+                                        Click="PlayButton_Click"
+                                        Visibility="{Binding HasAudio, Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                                <Button Content="■"
+                                        Height="30"
+                                        Width="80"
+                                        Background="#7D5A50"
+                                        Foreground="#E8D8C3"
+                                        HorizontalAlignment="Center"
+                                        Margin="0,10,0,10"
+                                        Click="StopButton_Click"/>
                             </Grid>
                         </Border>
                     </DataTemplate>
