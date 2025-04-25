@@ -57,6 +57,7 @@
                        Margin="0,17,0,0"
                        HorizontalAlignment="Left"
                        Grid.Column="1"
+                       Text="{Binding HomeVM.SearchText, UpdateSourceTrigger=PropertyChanged}"
                        Style="{StaticResource ModernTextbox}"/>
             </StackPanel>
             <ContentControl Grid.Row="1"
