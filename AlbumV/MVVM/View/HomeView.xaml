@@ -39,6 +39,30 @@
                                     <TextBlock Text="{Binding Name}" Margin="10,215,10,0" TextAlignment="Center" Foreground="#E8D8C3"/>
                                     <TextBlock Text="{Binding Artist}" Margin="10,10,10,0" TextAlignment="Center" Foreground="#E8D8C3"/>
                                     <TextBlock Text="{Binding Rating}" Margin="10,10,10,0" TextAlignment="Center" Foreground="#E8D8C3"/>
+                                    
+                                    <!-- Add Play Button for Audio Clip -->
+                                    <Button Width="30" 
+                                            Height="30" 
+                                            Margin="0,5,0,0" 
+                                            ToolTip="Play Sound Clip"
+                                            Visibility="{Binding HasAudioClip, Converter={StaticResource BooleanToVisibilityConverter}}"
+                                            Command="{Binding DataContext.PlayAudioCommand, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                                            CommandParameter="{Binding}">
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid>
+                                                    <Ellipse Fill="#4E4E4E" Stroke="#E8D8C3" StrokeThickness="1"/>
+                                                    <Path Data="M 10,8 L 10,22 L 22,15 Z" Fill="#E8D8C3" Stretch="Uniform" Margin="3"/>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                    </Button>
+                                    
+                                    <!-- Hidden MediaElement for Audio Playback -->
+                                    <MediaElement x:Name="AudioPlayer" 
+                                                  Source="{Binding AudioClipPath}" 
+                                                  LoadedBehavior="Manual" 
+                                                  Visibility="Collapsed"/>
                                 </StackPanel>
                                 <Border>
                                     <Border.Clip>
