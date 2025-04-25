@@ -196,15 +196,6 @@
     <Folder Include="MVVM\Model\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\graduation.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\somerapsongs.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\astroworld.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
