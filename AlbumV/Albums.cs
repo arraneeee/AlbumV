@@ -11,6 +11,6 @@ namespace AlbumV
         public string Name { get; set; }
         public string Artist { get; set; }
         public string FilePath { get; set; }
-        public int Rating { get; set; }
+        public string Rating { get; set; }
     }
 }

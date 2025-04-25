@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AlbumV.Core;
-using AlbumV.MVVM.ViewModel;
+﻿using AlbumV.Core;
 
 namespace AlbumV.MVVM.ViewModel
 {
@@ -27,7 +21,7 @@ namespace AlbumV.MVVM.ViewModel
                 OnPropertyChanged();
             }
         }
-
+         
         public MainViewModel() 
         { 
             HomeVM = new HomeViewModel();

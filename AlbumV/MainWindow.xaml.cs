@@ -11,6 +11,7 @@ namespace AlbumV
         public ObservableCollection<Albums> Albums { get; set; }
         public MainWindow()
         {
+            Albums = new ObservableCollection<Albums>();
             LoadJsonData();
             DataContext = this;
             InitializeComponent();

@@ -1,26 +1,284 @@
 [
-    {
-        "Name": "Graduation",
-        "Artist": "Kanye West",
-        "FilePath": "/Images/graduation.jpg",
-        "Rating": 87
-    },
-    {
-        "Name": "Some Rap Songs",
-        "Artist": "Earl Sweatshirt",
-        "FilePath": "/Images/somerapsongs.jpg",
-        "Rating": 89
-    },
-    {
-        "Name": "Astroworld",
-        "Artist": "Travis Scott",
-        "FilePath": "/Images/astroworld.jpg",
-        "Rating": 83
-    },
-    {
-        "Name": "smeg",
-        "Artist": "gimp",
-        "FilePath": "/Images/astroworld.jpg",
-        "Rating": 83
-    }
+  {
+    "Name": "Blonde",
+    "Artist": "Frank Ocean",
+    "FilePath": "https://i.scdn.co/image/ab67616d00001e02c5649add07ed3720be9d5526",
+    "Rating": "8"
+  },
+  {
+    "Name": "Eternal Atake",
+    "Artist": "Lil Uzi Vert",
+    "FilePath": "https://upload.wikimedia.org/wikipedia/en/1/1f/Eternal_Atake_Lil_Uzi_Vert.jpg",
+    "Rating": "6"
+  },
+  {
+    "Name": "EP!",
+    "Artist": "JPEGMAFIA",
+    "FilePath": "https://external-preview.redd.it/ByzRmTXhstOoTHY2EdcntRBFZ69eRTcpTQKHCgU16M8.jpg?width=640&crop=smart&auto=webp&s=ae6b71c4919e0b3bb967e9b3ceaecb88cdcdeb9a",
+    "Rating": "7"
+  },
+  {
+    "Name": "Faces",
+    "Artist": "Mac Miller",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273e4251cf5331ad74eaaeca36e",
+    "Rating": "7"
+  },
+  {
+    "Name": "Exmilitary",
+    "Artist": "Death Grips",
+    "FilePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrK2ANs2WRUFG_lGfVW60aZdApsdTFiteQRA&s",
+    "Rating": "8"
+  },
+  {
+    "Name": "In Rainbows",
+    "Artist": "Radiohead",
+    "FilePath": "https://upload.wikimedia.org/wikipedia/en/1/14/Inrainbowscover.png",
+    "Rating": "9"
+  },
+  {
+    "Name": "Flex Musix",
+    "Artist": "Osamason",
+    "FilePath": "https://m.media-amazon.com/images/I/61zNhn0nPqL._UF894,1000_QL80_.jpg",
+    "Rating": "5"
+  },
+  {
+    "Name": "Generation Y",
+    "Artist": "Devon Hendryx",
+    "FilePath": "https://f4.bcbits.com/img/a3145118437_5.jpg",
+    "Rating": "7"
+  },
+  {
+    "Name": "Monster",
+    "Artist": "Future",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273a7a4539497c537bee2a189e6",
+    "Rating": "7"
+  },
+  {
+    "Name": "Rodeo",
+    "Artist": "Travis Scott",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2736cfd9a7353f98f5165ea6160",
+    "Rating": "8"
+  },
+  {
+    "Name": "The Powers That B",
+    "Artist": "Death Grips",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2734aea9bda43e44a0e07f7c0b6",
+    "Rating": "9"
+  },
+  {
+    "Name": "Scaring the Hoes",
+    "Artist": "JPEGMAFIA, Danny Brown",
+    "FilePath": "https://upload.wikimedia.org/wikipedia/en/2/2b/Scaring_the_Hoes.webp",
+    "Rating": "8"
+  },
+  {
+    "Name": "Wolf",
+    "Artist": "Tyler, The Creator",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27322007a4aa8a55fe7b1de5632",
+    "Rating": "7"
+  },
+  {
+    "Name": "Stankonia",
+    "Artist": "Outkast",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2732350e31bc346a6c20e9de166",
+    "Rating": "7"
+  },
+  {
+    "Name": "The Peak",
+    "Artist": "smokedope20166",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27318e4c2913a55fa0de4d2a0a5",
+    "Rating": "6"
+  },
+  {
+    "Name": "OFFLINE!",
+    "Artist": "JPEGMAFIA",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273e6ff353e9e91669eb9af5e2f",
+    "Rating": "9"
+  },
+  {
+    "Name": "No Love Deep Web",
+    "Artist": "Death Grips",
+    "FilePath": "https://media.pitchfork.com/photos/5929c027c0084474cd0c314f/1:1/w_450%2Cc_limit/6698e088.jpeg",
+    "Rating": "8"
+  },
+  {
+    "Name": "My Beautiful Dark Twisted Fantasy",
+    "Artist": "Kanye West",
+    "FilePath": "https://m.media-amazon.com/images/I/71EYmWxcmdL._UF1000,1000_QL80_.jpg",
+    "Rating": "9"
+  },
+  {
+    "Name": "Unkown Death 2002",
+    "Artist": "Yung Lean",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273a081356ba32d993b5668f9b0",
+    "Rating": "7"
+  },
+  {
+    "Name": "The Ghost~Pop Tape",
+    "Artist": "Devon Hendryx",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27304dfe852e9ebb932eb987f87",
+    "Rating": "8"
+  },
+  {
+    "Name": "Gum",
+    "Artist": "Cities Aviv",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273774866da670c9c24420a6ec5",
+    "Rating": "9"
+  },
+  {
+    "Name": "Alternative Trap",
+    "Artist": "LUCKI",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273f665c6f3218650867fbfb55d",
+    "Rating": "7"
+  },
+  {
+    "Name": "Cherry Bomb",
+    "Artist": "Tyler, The Creator",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273e4bf0d3d9e0224a30ca5f665",
+    "Rating": "5"
+  },
+  {
+    "Name": "Black Pleasure 2012",
+    "Artist": "Cities Aviv",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273f837161978fa90a035b1eda4",
+    "Rating": "8"
+  },
+  {
+    "Name": "EP2!",
+    "Artist": "JPEGMAFIA",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27307231d0129d03008396fc69d",
+    "Rating": "7"
+  },
+  {
+    "Name": "Madvilliany",
+    "Artist": "MF DOOM",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27302abe1eaf9da931f42629b4a",
+    "Rating": "10"
+  },
+  {
+    "Name": "Sick!",
+    "Artist": "Earl Sweatshirt",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27382397f3b9fe5e010d82755c6",
+    "Rating": "7"
+  },
+  {
+    "Name": "Testing",
+    "Artist": "A$AP Rocky",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2739feadc48ab0661e9b3a9170b",
+    "Rating": "7"
+  },
+  {
+    "Name": "Ye",
+    "Artist": "Kanye West",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2730cd942c1a864afa4e92d04f2",
+    "Rating": "9"
+  },
+  {
+    "Name": "JOECHILLWORLD",
+    "Artist": "Devon Hendryx",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27394ed8eec7e9a0b55dfc27d9f",
+    "Rating": "8"
+  },
+  {
+    "Name": "Die Lit",
+    "Artist": "Playboi Carti",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+    "Rating": "7"
+  },
+  {
+    "Name": "IGOR",
+    "Artist": "Tyler, The Creator",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2737005885df706891a3c182a57",
+    "Rating": "9"
+  },
+  {
+    "Name": "Pink Tape",
+    "Artist": "Lil Uzi Vert",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2736f01d9e9df05d4bc6c022343",
+    "Rating": "4"
+  },
+  {
+    "Name": "Illmatic",
+    "Artist": "Nas",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273045fc920ecf4f8094888ec26",
+    "Rating": "8"
+  },
+  {
+    "Name": "good kid, m.A.A.d city",
+    "Artist": "Kendrick Lamar",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273d58e537cea05c2156792c53d",
+    "Rating": "9"
+  },
+  {
+    "Name": "Doris",
+    "Artist": "Earl Sweatshirt",
+    "FilePath": "https://i.scdn.co/image/ab67616d00001e0246f9bf1154c7205b0e8b1667",
+    "Rating": "8"
+  },
+  {
+    "Name": "Astroworld",
+    "Artist": "Travis Scott",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273072e9faef2ef7b6db63834a3",
+    "Rating": "8"
+  },
+  {
+    "Name": "1999",
+    "Artist": "Joey Bada$$",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273fcd3724fba954e6104e4530d",
+    "Rating": "9"
+  },
+  {
+    "Name": "MAN PLAYS THE HORN",
+    "Artist": "Cities Aviv",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27300e3df8cfaf9a89084f43f6f",
+    "Rating": "9"
+  },
+  {
+    "Name": "Watch The Throne",
+    "Artist": "Kanye West",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2735c837cc621c1ec82bf3c81ac",
+    "Rating": "6"
+  },
+  {
+    "Name": "To Pimp A Butterfly",
+    "Artist": "Kendrick Lamar",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b273cdb645498cd3d8a2db4d05e1",
+    "Rating": "9"
+  },
+  {
+    "Name": "Solace",
+    "Artist": "Earl Sweatshirt",
+    "FilePath": "https://i.scdn.co/image/ab67656300005f1fb499144f9cbce5164343086d",
+    "Rating": "9"
+  },
+  {
+    "Name": "The Melodic Blue",
+    "Artist": "Baby Keem",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2733bcf586e8df6f8ef4a36ca3c",
+    "Rating": "7"
+  },
+  {
+    "Name": "Mr. Morale & The Big Steppers",
+    "Artist": "Kendrick Lamar",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2732e02117d76426a08ac7c174f",
+    "Rating": "7"
+  },
+  {
+    "Name": "MUSIC",
+    "Artist": "Playboi Carti",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b2736b219c8d8462bfe254a20469",
+    "Rating": "4"
+  },
+  {
+    "Name": "The Money Store",
+    "Artist": "Death Grips",
+    "FilePath": "https://i.scdn.co/image/ab67616d00001e02b4f8459b0f719f8a97ee1c8c",
+    "Rating": "10"
+  },
+  {
+    "Name": "MM..FOOD",
+    "Artist": "MF Doom",
+    "FilePath": "https://i.scdn.co/image/ab67616d0000b27352f194d02c39909d1b284799",
+    "Rating": "8"
+  }
 ]

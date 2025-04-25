@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:AlbumV"
         xmlns:viewModel="clr-namespace:AlbumV.MVVM.ViewModel"
         mc:Ignorable="d"
-        Title="" Height="600" Width="1000"
+        Title="" Height="800" Width="1040"
         WindowStyle="SingleBorderWindow"
-        ResizeMode="CanResize"
+        ResizeMode="NoResize"
         Background="Transparent"
         AllowsTransparency="False">
 

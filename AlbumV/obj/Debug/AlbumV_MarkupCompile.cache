@@ -1,7 +1,7 @@
 ﻿AlbumV
 
 
-winexe
+exe
 C#
 .cs
 C:\Users\arran\Documents\GitHub\AlbumV\AlbumV\obj\Debug\
@@ -12,7 +12,7 @@ DEBUG;TRACE
 C:\Users\arran\Documents\GitHub\AlbumV\AlbumV\App.xaml
 51613293842
 
-121546618319
+13336064722
 251942878326
 MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\UploadView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 

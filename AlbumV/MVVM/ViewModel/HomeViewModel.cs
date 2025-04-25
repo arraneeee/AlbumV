@@ -24,7 +24,6 @@ namespace AlbumV.MVVM.ViewModel
                 return;
             }
 
-            // Debugging: Print out the loaded albums
             System.Diagnostics.Debug.WriteLine($"Loaded {Albums.Count} albums.");
             foreach (var album in Albums)
             {
