@@ -1,0 +1,10 @@
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\AlbumV.csproj.AssemblyReference.cache
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\Theme\MenuButtonTheme.baml
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\Theme\TextBoxTheme.baml
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\MainWindow.g.cs
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\MVVM\View\HomeView.g.cs
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\MVVM\View\UploadView.g.cs
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\App.g.cs
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\AlbumV_MarkupCompile.cache
+D:\GitHub\[Remi]\AlbumV\AlbumV\obj\Release\AlbumV_MarkupCompile.lref
